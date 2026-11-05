@@ -1,0 +1,26 @@
+# Secrets: never commit these
+.env
+.streamlit/secrets.toml
+
+# Local databases (chats and usage counts)
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test scripts
+check_langfuse.py
+test_langfuse_trace.py
+inspect_memory.py
